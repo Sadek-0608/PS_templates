@@ -3,7 +3,7 @@
 #define int ll
 using namespace std;
 
-struct SparceTable {
+struct SparseTable {
     vector<vector<int>> data;
     vector<int> logs;
 
@@ -11,7 +11,7 @@ struct SparceTable {
         return min(lf, ri);// change the operation, must be "op(x, x) = x"
     }
 
-    SparceTable(vector<int> &arr) {
+    SparseTable(vector<int> &arr) {
         int n = arr.size();
 
         logs.assign(n + 1, 0);
