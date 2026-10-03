@@ -58,7 +58,6 @@ struct BIT { // 1-indexed
     }
 };
 
-
 //Multiset using BIT
 struct MultiSet {
     int n;
